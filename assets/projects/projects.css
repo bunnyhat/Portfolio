@@ -70,6 +70,19 @@ body {
     background-color: #AEA1A1;
 }
 
+#page-wrap-models {
+    width: 75%;
+    float: left;
+    right: 0px;
+    left: 0px;
+    padding: .1em;
+    margin: 0.2em auto;
+    margin-left: 15%;
+    border: 0.2em solid darkred;
+    border-radius: 1.25em;
+    background-color: #977A7A;
+}
+
 .gameName, .min-tray {
     font-family: 'Economica', sans-serif;
     font-size: 2em;

@@ -114,3 +114,19 @@ function SMB3() {
     text.innerHTML = "Super Mario Bros. 3";
   }
 }
+
+
+
+function models3D() {
+  var ele = document.getElementById("toggleModels");
+  var text = document.getElementById("displayModels");
+
+  if(ele.style.display == "block") {
+    ele.style.display = "none";
+    text.innerHTML = "3D Models";
+  }
+  else {
+    ele.style.display = "block";
+    text.innerHTML = "3D Models";
+  }
+}
