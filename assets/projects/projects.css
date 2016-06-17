@@ -70,10 +70,10 @@ body {
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-    border: 0.2em solid #5B0101;
-    border-radius: 1.25em;
-    background-color: #AEA1A1;
-    opacity: 0.75;
+    border-radius: 61px 0px 0px 0px;
+    -moz-border-radius: 61px 0px 0px 0px;
+    -webkit-border-radius: 61px 0px 0px 0px;
+    border: 5px solid #c40a0a;
 }
 
 #page-wrap-models {
@@ -84,13 +84,14 @@ body {
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-    border: 0.2em solid darkred;
-    border-radius: 1.25em;
-    background-color: #977A7A;
+    border-radius: 0px 61px 0px 0px;
+    -moz-border-radius: 0px 61px 0px 0px;
+    -webkit-border-radius: 0px 61px 0px 0px;
+    border: 5px solid #c40a0a;
     opacity: 0.75;
 }
 
-#page-wrap:hover, #page-wrap-models:hover {
+#page-wrap-models:hover {
     opacity: 1;
 }
 
