@@ -8,7 +8,7 @@
 }
 
 header, main, footer {
-      position:absolute;
+    position:absolute;
 }
 
 @media only screen and (max-width : 992px) {
@@ -24,9 +24,13 @@ html {
 
 body {
     height: 100%;
+    width: 100%;
     overflow: auto;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-overflow-scrolling: touch;
+
 }
 
 .col-1 {width: 8.33%;}
@@ -69,6 +73,7 @@ body {
     border: 0.2em solid #5B0101;
     border-radius: 1.25em;
     background-color: #AEA1A1;
+    opacity: 0.75;
 }
 
 #page-wrap-models {
@@ -82,6 +87,11 @@ body {
     border: 0.2em solid darkred;
     border-radius: 1.25em;
     background-color: #977A7A;
+    opacity: 0.75;
+}
+
+#page-wrap:hover, #page-wrap-models:hover {
+    opacity: 1;
 }
 
 .gameName, .min-tray {
