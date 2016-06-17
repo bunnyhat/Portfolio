@@ -8,7 +8,7 @@
 }
 
 header, main, footer {
-      padding-left: 12em;
+      position:absolute;
 }
 
 @media only screen and (max-width : 992px) {
@@ -25,6 +25,7 @@ html {
 body {
     height: 100%;
     overflow: auto;
+    text-align: center;
     -webkit-overflow-scrolling: touch;
 }
 
@@ -127,14 +128,14 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-    color: #411010;
-    text-shadow: 0.100em 0.100em 0.2em #701B1B;
+.gameName a:hover {
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.8em #701B1B;
+    color: black;
 }
 
-body {
-	background-color: #A9A5A5;
-    text-align: center;
+u:hover {
+    color: black;
 }
 
 .aboutGame h2 {
@@ -176,6 +177,23 @@ p:first-child { padding: .1em; }
 
 .centerList {
     text-align: center;
+}
+
+
+footer {
+    text-align: center;
+    width:100%;
+	height:-100%;
+	position:absolute;
+	bottom:0;
+	left:0;
+    line-height: 1.25em;
+}
+
+footer a:hover {
+    text-shadow: 0em 0em 0em black;
+    text-decoration: none;
+    color: black;
 }
 
 /*===========================================================================================================================

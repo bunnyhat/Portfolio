@@ -3,6 +3,7 @@
 <html lang="en">
 	<head>
 		<link rel="stylesheet" type="text/css" href="projects.css">
+        <link rel="stylesheet" type="text/css" href="background.css">
         <link rel="stylesheet" type="text/css" href="viewport.css">
 		<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.6-dist/css/bootstrap.css">
 		<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
@@ -431,28 +432,28 @@
                     <!-- Define all of the tiles: -->
         <div class="box">
           <div class="boxInner">
-            <img src="_images/Snakes/Screenshot_1.png" />
+            <img src="_images/SpaceEscape/Screenshot_1.png" />
             <div class="titleBox">Main Menu</div>
           </div>
         </div>
 
         <div class="box">
           <div class="boxInner">
-            <img src="_images/Snakes/Screenshot_2.png" />
+            <img src="_images/SpaceEscape/Screenshot_2.png" />
             <div class="titleBox">How To Play</div>
           </div>
         </div>
 
         <div class="box">
           <div class="boxInner">
-            <img src="_images/Snakes/Screenshot_3.png" />
+            <img src="_images/SpaceEscape/Screenshot_3.png" />
             <div class="titleBox">Gameplay</div>
           </div>
         </div>
 
         <div class="box">
           <div class="boxInner">
-            <img src="_images/Snakes/Screenshot_4.png" />
+            <img src="_images/SpaceEscape/Screenshot_4.png" />
             <div class="titleBox">Game Over</div>
           </div>
         </div>
@@ -462,37 +463,34 @@
         <div class="aboutGame" align="center">
             <h2 class="about">About The Game</h2>
                 <h5>
-                    <p>Snakes was a class final project for the Advanced HTML course. It was designed and coded using melonJS. It is like the original Snakes game, but with an added bonus of having 2 player mode.</p>
-                    <p>Both players must eat as many pallets to grow in size and trap the other player in order to win. Pallets give points and in the end, the player that wins, then gets a high score of the pallets obtained by both the players.</p>
-                    <p>This game can also be played in one player mode, just like the classic one on any browser.</p>
+                    <p>Space Escape was a class project, a 3D action shooter where the player must pick a main character to journey through different levels and fight for survival.</p>
+                    <p>A full detail summary of the game can be found at the project's <a href="https://github.com/qcha0s/SpaceEscape/wiki"><u>GitHub Wiki page</u></a></p>
+                    <p><b>Note: </b>Some alterations were made throughout the development process.</p>
                 </h5>
 
             <h2 class="features">Features</h2>
                 <h5>
                     These are all the features included in the game:
                     <ul class="indentList">
-                        <li>- Keyboard Controls</li>
-                        <li>- Play alone or with a friend to see who can get the most pallets and trap the other player</li>
-                        <li>- Randomly generated obstacles on the screen that move each time you play</li>
-                        <li>- High score for both 1 and 2 player mode</li>
+                        <li>- Keyboard Controls with Custom Input Manager</li>
+                        <li>- </li>
                     </ul>
                 </h5>
 
             <h2 class="how">How it was made</h2>
                 <h5>
-                    When coming up with ideas on how to make a retro space invaders type game different, I thought to myself, "How can I make this different than what had already been made years ago?". After very little thinking, I decided why not make it 2 players, where players can work together to fight off the invaders. I had looked up sprites and found the perfect match to what I wanted my game to look like. A quick google search on a space background and I had the base assets to get started on my game. Once I got started, I knew I made the ships on opposing sides and wanted the enemies to be in the middle of the screen. First I maped out the players movement then figured out how to make the players shoot. From there, I went on to writing enemy behavior, they would move from one end of the screen, once they hit that side, they would head in the oppositie direction. Then of course, hit detection between the player's laser beams and the enemy's laser beams, and the "KA-BOOMS" were added. While doing collision detection, I asked myself, "What about when a player shoots the other player?!", then what I thought would be a co-op game, became not only a co-op game but also a competetive game. Soon, I added hit detection if players hit each other. Once those basic mechanics where fully polished, I went onto the UI of the game. Grabbed that funky font that suited my space theme and wrote a short script to display a score when players get a kill against the enemies. And deducted points for shooting at the other player. Health was added to the game after that, where as enemies are a one hit kill. A pause and game over UI was implemented. Following that, a simple Game Manager which acts a singleton was added to manage game pauses, player(s) death, sound manager and game over mechanics. To make the sound manager work, I grabbed a few "pew pew", "KA-BOOM" and button click/tap sounds off a free sound website. After a few iterations of polishing, I decided to make the game playable on tablets. In order to do that, buttons were placed on the screen to show where to tap to move left and right and to shoot. Then a few small changes and additions were made to the player movement scripts to detect taps for the approriate buttons. Finally, I tested it on my tablet to ensure it was playable from start to end and play tested it with others.
+                    <p>A full detail summary of the game can be found at the project's <a href="https://github.com/qcha0s/SpaceEscape/wiki"><u>GitHub Wiki page</u></a></p>
+                    <p><b>Note: </b>Some alterations were made throughout the development process.</p>
                 </h5>
 
             <h2 class="thanks">Special Thanks To</h2>
                 <h5>
                     <ul class="centerList">
-                        <li>- My group member on this project - Kirushanth</li>
-                        <li>- Snakes body and head sprites made with Paint</li>
-                        <li>- Pallet and Obstacles sprite made in Adobe Fireworks</li>
-                        <li>- Menu Gradient Background made in Adobe Fireworks</li>
-                        <li>- Background by Google Images</li>
-                        <li>- UI Font provided by melonJS (hue and saturation changes were made with Adobe Fireworks)</li>                  
-                        <li>- <a href="http://www.1001fonts.com/pwworldsend2112-font.html">PW WORLDS END 2112 Font by Peax Webdesign</a></li>                       
+                        <li>- My group members on this project</li>
+                        <li>- EasyRoads3D</li>
+                        <li>- Dark Unity Assets</li>
+                        <li>- Sand Texture Pack</li>
+                        <li>- Mixamo Fuse for Characters and Animations</li>                
                     </ul>
                 </h5>
             </div></span>
@@ -791,6 +789,27 @@
             </div>
         </span>
     </div>
+
+
+
+
+
+    <footer>
+        <p>
+            ©2016 Zeeshan Mohammed 
+        </p>
+        <p><div class="footerLinks">
+            Fonts: <a href="https://www.google.com/fonts">Google Fonts</a>
+            &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
+            Gradient: <a href="http://www.cssportal.com/css-gradient-generator/">CSSPortal</a>
+            &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
+            Image Gallery: <a href="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/">DWUser.com</a>
+            &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
+            Sidebar: <a href="http://codepen.io/JFarrow/pen/fFrpg">Sidebar Menu Hover Show/Hide CSS</a>
+            &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp; 
+            Div Toggle: <a href="http://www.randomsnippets.com/2008/02/12/how-to-hide-and-show-your-div/">Hide, Show or Toggle Div</a>
+        </div></p>
+    </footer>
 
 	
 	</body>
