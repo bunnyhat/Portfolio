@@ -1,21 +1,21 @@
 html {
 
 /* IE10+ */ 
-background-image: -ms-linear-gradient(top left, #FFFFFF 0%, #C98989 50%, #CC2B12 100%);
+background-image: -ms-linear-gradient(top left, #D1D1D1 0%, #8C8994 50%, #910707 75%, #8A0000 87.5%, #5E0600 100%);
 
 /* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top left, #FFFFFF 0%, #C98989 50%, #CC2B12 100%);
+background-image: -moz-linear-gradient(top left, #D1D1D1 0%, #8C8994 50%, #910707 75%, #8A0000 87.5%, #5E0600 100%);
 
 /* Opera */ 
-background-image: -o-linear-gradient(top left, #FFFFFF 0%, #C98989 50%, #CC2B12 100%);
+background-image: -o-linear-gradient(top left, #D1D1D1 0%, #8C8994 50%, #910707 75%, #8A0000 87.5%, #5E0600 100%);
 
 /* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #FFFFFF), color-stop(50, #C98989), color-stop(100, #CC2B12));
+background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0, #D1D1D1), color-stop(50, #8C8994), color-stop(75, #910707), color-stop(87.5, #8A0000), color-stop(100, #5E0600));
 
 /* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top left, #FFFFFF 0%, #C98989 50%, #CC2B12 100%);
+background-image: -webkit-linear-gradient(top left, #D1D1D1 0%, #8C8994 50%, #910707 75%, #8A0000 87.5%, #5E0600 100%);
 
 /* W3C Markup */ 
-background-image: linear-gradient(to bottom right, #FFFFFF 0%, #C98989 50%, #CC2B12 100%);
+background-image: linear-gradient(to bottom right, #D1D1D1 0%, #8C8994 50%, #910707 75%, #8A0000 87.5%, #5E0600 100%);
 
 }
