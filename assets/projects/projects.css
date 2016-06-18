@@ -8,7 +8,7 @@
 }
 
 header, main, footer {
-      padding-left: 12em;
+    position:absolute;
 }
 
 @media only screen and (max-width : 992px) {
@@ -23,9 +23,15 @@ html {
 }
 
 body {
+    padding-bottom:60px;
     height: 100%;
+    width: 100%;
     overflow: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     -webkit-overflow-scrolling: touch;
+
 }
 
 .col-1 {width: 8.33%;}
@@ -57,6 +63,12 @@ body {
     /*background-color: #CECACA;*/
 }
 
+.content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -142px; 
+}
+
 #page-wrap {
     width: 75%;
     float: left;
@@ -65,12 +77,14 @@ body {
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-    border: 0.2em solid #5B0101;
-    border-radius: 1.25em;
-    background-color: #AEA1A1;
+    border-radius: 61px 0px 0px 0px;
+    -moz-border-radius: 61px 0px 0px 0px;
+    -webkit-border-radius: 61px 0px 0px 0px;
+    border: 5px solid #c40a0a;
 }
 
 #page-wrap-models {
+
     width: 75%;
     float: left;
     right: 0px;
@@ -78,9 +92,15 @@ body {
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-    border: 0.2em solid darkred;
-    border-radius: 1.25em;
-    background-color: #977A7A;
+    border-radius: 0px 61px 0px 0px;
+    -moz-border-radius: 0px 61px 0px 0px;
+    -webkit-border-radius: 0px 61px 0px 0px;
+    border: 5px solid #c40a0a;
+    opacity: 0.75;
+}
+
+#page-wrap-models:hover {
+    opacity: 1;
 }
 
 .gameName, .min-tray {
@@ -127,14 +147,14 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
-    color: #411010;
-    text-shadow: 0.100em 0.100em 0.2em #701B1B;
+.gameName a:hover {
+    text-decoration: none;
+    text-shadow: 0.1em 0.1em 0.8em #701B1B;
+    color: white;
 }
 
-body {
-	background-color: #A9A5A5;
-    text-align: center;
+u:hover {
+    color: white;
 }
 
 .aboutGame h2 {
@@ -176,6 +196,15 @@ p:first-child { padding: .1em; }
 
 .centerList {
     text-align: center;
+}
+
+
+.content:after {
+  content: "";
+  display: block;
+}
+#footer, .content:after {
+  height: 142px; 
 }
 
 /*===========================================================================================================================
