@@ -178,6 +178,28 @@ p:first-child { padding: .1em; }
     text-align: center;
 }
 
+.content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin: 0 0 100px;
+}
+.content:after {
+  content: "";
+  display: block;
+}
+
+.site-footer {
+  background: orange;
+}
+
+.site-footer, .content:after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
 /*===========================================================================================================================
                                                     SIDE BAR SHOW AND HIDE CSS
 ===========================================================================================================================*/
