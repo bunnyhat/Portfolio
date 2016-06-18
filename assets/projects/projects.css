@@ -65,9 +65,10 @@ body {
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-    border: 0.2em solid #5B0101;
-    border-radius: 1.25em;
-    background-color: #AEA1A1;
+border-radius: 84px 8px 32px 32px;
+-moz-border-radius: 84px 8px 32px 32px;
+-webkit-border-radius: 84px 8px 32px 32px;
+border: 4px solid #9c0505;
 }
 
 #page-wrap-models {
@@ -78,14 +79,16 @@ body {
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-    border: 0.2em solid darkred;
-    border-radius: 1.25em;
-    background-color: #977A7A;
+border-radius: 32px 84px 8px 32px;
+-moz-border-radius: 32px 84px 8px 32px;
+-webkit-border-radius: 32px 84px 8px 32px;
+border: 4px solid #9e5151;
 }
 
 .gameName, .min-tray {
     font-family: 'Economica', sans-serif;
     font-size: 2em;
+    text-decoration: none;
 }
 
 .menu {
@@ -127,9 +130,10 @@ a {
 	text-decoration: none;
 }
 
-a:hover {
+a:hover, a:active {
+    text-decoration: none;
     color: #411010;
-    text-shadow: 0.100em 0.100em 0.2em #701B1B;
+    text-shadow: 0.100em 0.100em 0.8em #701B1B;
 }
 
 body {
@@ -188,17 +192,20 @@ p:first-child { padding: .1em; }
   display: block;
 }
 
-.site-footer {
-  background: orange;
+.footerName {
+    font-size: 0.85em;
 }
 
-.site-footer, .content:after {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
+.links:hover {
+    text-decoration: none;
+    text-shadow: 0.00em 0.00em 0.0em white;
+    color: darkred;
 }
+
+.footerCredits {
+    font-size: 0.7em;
+}
+
 
 /*===========================================================================================================================
                                                     SIDE BAR SHOW AND HIDE CSS
