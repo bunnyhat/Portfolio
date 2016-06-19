@@ -1731,6 +1731,11 @@
 		margin: 0 0 1.5em 0;
 	}
 
+	figure a {
+		margin-left: 50%;
+		color: cadetblue;
+	}
+
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -1em;
@@ -1741,6 +1746,7 @@
 		font-size: 1.1em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
+		
 	}
 
 	header h4 + p,
