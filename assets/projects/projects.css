@@ -20,6 +20,7 @@ header, main, footer {
 html {
     overflow: hidden;
     height: 100%;
+    background-image: url("_images/background.png");
 }
 
 body {
@@ -65,10 +66,12 @@ body {
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-border-radius: 84px 8px 32px 32px;
--moz-border-radius: 84px 8px 32px 32px;
--webkit-border-radius: 84px 8px 32px 32px;
-border: 4px solid #9c0505;
+    border-radius: 84px 8px 32px 32px;
+    -moz-border-radius: 84px 8px 32px 32px;
+    -webkit-border-radius: 84px 8px 32px 32px;
+    border: 4px solid #9c0505;
+    background-color: lightgrey;
+    opacity: 0.65;
 }
 
 #page-wrap-models {
@@ -79,10 +82,16 @@ border: 4px solid #9c0505;
     padding: .1em;
     margin: 0.2em auto;
     margin-left: 15%;
-border-radius: 32px 84px 8px 32px;
--moz-border-radius: 32px 84px 8px 32px;
--webkit-border-radius: 32px 84px 8px 32px;
-border: 4px solid #9e5151;
+    border-radius: 32px 84px 8px 32px;
+    -moz-border-radius: 32px 84px 8px 32px;
+    -webkit-border-radius: 32px 84px 8px 32px;
+    border: 4px solid #9e5151;
+    background-color: lightgrey;
+    opacity: 0.65;
+}
+
+#page-wrap:hover, #page-wrap-models:hover {
+    opacity: 1;
 }
 
 .gameName, .min-tray {
@@ -97,7 +106,6 @@ border: 4px solid #9e5151;
     width: 20%;
     float: left;
     color: white;
-    background-color: #8D8D8D;
     font-family: Verdana;
     font-size: 20px;
     font-style: normal;
@@ -137,7 +145,6 @@ a:hover, a:active {
 }
 
 body {
-	background-color: #A9A5A5;
     text-align: center;
 }
 
@@ -193,7 +200,8 @@ p:first-child { padding: .1em; }
 }
 
 .footerName {
-    font-size: 0.85em;
+    font-size: 0.9em;
+    text-shadow: 0.00em 0.00em 0.3em darkgray;
 }
 
 .links:hover {
@@ -203,7 +211,8 @@ p:first-child { padding: .1em; }
 }
 
 .footerCredits {
-    font-size: 0.7em;
+    font-size: 0.75em;
+    text-shadow: 0.00em 0.00em 0.3em darkgray;
 }
 
 
