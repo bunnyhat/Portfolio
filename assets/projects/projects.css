@@ -9,6 +9,7 @@
 
 header, main, footer {
       padding-left: 12em;
+      color: black;
 }
 
 @media only screen and (max-width : 992px) {
@@ -21,12 +22,14 @@ html {
     overflow: hidden;
     height: 100%;
     background-image: url("_images/background.png");
+    text-decoration: none;
 }
 
 body {
     height: 100%;
     overflow: auto;
     -webkit-overflow-scrolling: touch;
+    text-decoration: none;
 }
 
 .col-1 {width: 8.33%;}
@@ -71,7 +74,6 @@ body {
     -webkit-border-radius: 84px 8px 32px 32px;
     border: 4px solid #9c0505;
     background-color: lightgrey;
-    opacity: 0.65;
 }
 
 #page-wrap-models {
@@ -87,11 +89,6 @@ body {
     -webkit-border-radius: 32px 84px 8px 32px;
     border: 4px solid #9e5151;
     background-color: lightgrey;
-    opacity: 0.65;
-}
-
-#page-wrap:hover, #page-wrap-models:hover {
-    opacity: 1;
 }
 
 .gameName, .min-tray {
@@ -130,19 +127,29 @@ ul .sub-heading {
 
 li .active {
     color: #411010;
-    text-shadow: 0.100em 0.100em 0.2em #DD5E5E;
-}
-
-a {
-	color:#CECACA;
-	text-decoration: none;
-}
-
-a:hover, a:active {
     text-decoration: none;
-    color: #411010;
-    text-shadow: 0.100em 0.100em 0.8em #701B1B;
+    /*text-shadow: 0.100em 0.100em 0.2em #DD5E5E;*/
 }
+
+.gameName {
+    color: indianred;
+}
+
+.gameName a:hover, a:visited {
+    text-decoration: none;
+    color: maroon;
+}
+
+.centerList a {
+    text-decoration: none;
+    color: black;
+}
+
+.centerList a:hover, a:visited {
+    color: black;
+}
+
+
 
 body {
     text-align: center;
@@ -200,19 +207,24 @@ p:first-child { padding: .1em; }
 }
 
 .footerName {
+    color: white;
     font-size: 0.9em;
-    text-shadow: 0.00em 0.00em 0.3em darkgray;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .links:hover {
     text-decoration: none;
-    text-shadow: 0.00em 0.00em 0.0em white;
-    color: darkred;
+    color: lightsalmon;
 }
 
 .footerCredits {
+    color: white;
+    text-decoration: none;
     font-size: 0.75em;
-    text-shadow: 0.00em 0.00em 0.3em darkgray;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 
