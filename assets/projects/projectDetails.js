@@ -32,8 +32,8 @@ $(function() {
 });
 
 function alienInvazion() {
-	var ele = document.getElementById("toggleText");
-	var text = document.getElementById("displayText");
+	var ele = document.getElementById("toggleDustySpace");
+	var text = document.getElementById("displayDustySpace");
 
   if(ele.style.display == "block") {
     ele.style.display = "none";
@@ -43,11 +43,39 @@ function alienInvazion() {
 		ele.style.display = "block";
 		text.innerHTML = "Dusty Space";
 	}
-} 
+}
+
+function ffc() {
+	var ele = document.getElementById("toggleFFC");
+	var text = document.getElementById("displayFFC");
+
+  if(ele.style.display == "block") {
+    ele.style.display = "none";
+    text.innerHTML = "Fast Food Chain";
+	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = "Fast Food Chain";
+	}
+}
+
+function lastManBattalion() {
+	var ele = document.getElementById("toggleLMB");
+	var text = document.getElementById("displayLMB");
+
+  if(ele.style.display == "block") {
+    ele.style.display = "none";
+    text.innerHTML = "Last Man Battalion";
+	}
+	else {
+		ele.style.display = "block";
+		text.innerHTML = "Last Man Battalion";
+	}
+}
 
 function snakes() {
-  var ele = document.getElementById("toggleText2");
-  var text = document.getElementById("displayText2");
+  var ele = document.getElementById("toggleSnake");
+  var text = document.getElementById("displaySnake");
 
   if(ele.style.display == "block") {
     ele.style.display = "none";
@@ -60,8 +88,8 @@ function snakes() {
 } 
 
 function spaceEscape() {
-  var ele = document.getElementById("toggleText3");
-  var text = document.getElementById("displayText3");
+  var ele = document.getElementById("toggleSpaceEscape");
+  var text = document.getElementById("displaySpaceEscape");
 
   if(ele.style.display == "block") {
     ele.style.display = "none";
@@ -74,8 +102,8 @@ function spaceEscape() {
 }
 
 function iDidNazi() {
-  var ele = document.getElementById("toggleText4");
-  var text = document.getElementById("displayText4");
+  var ele = document.getElementById("toggleIDNTC");
+  var text = document.getElementById("displayIDNTC");
 
   if(ele.style.display == "block") {
     ele.style.display = "none";
@@ -88,8 +116,8 @@ function iDidNazi() {
 }
 
 function tyrant() {
-  var ele = document.getElementById("toggleText5");
-  var text = document.getElementById("displayText5");
+  var ele = document.getElementById("toggleTyrant");
+  var text = document.getElementById("displayTryant");
 
   if(ele.style.display == "block") {
     ele.style.display = "none";
@@ -102,8 +130,8 @@ function tyrant() {
 }
 
 function SMB3() {
-  var ele = document.getElementById("toggleText6");
-  var text = document.getElementById("displayText6");
+  var ele = document.getElementById("toggleSMB3");
+  var text = document.getElementById("displaySMB3");
 
   if(ele.style.display == "block") {
     ele.style.display = "none";
