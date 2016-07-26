@@ -192,9 +192,11 @@ p:first-child { padding: .1em; }
 
 .badges {
     margin: 0 0 0.1em 0;
-    
     padding-top: 0.0em;
     padding-bottom: 0.5em;
+}
+#vertical-align {
+    vertical-align: super;
 }
 
 .indentList {

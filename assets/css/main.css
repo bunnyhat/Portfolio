@@ -1583,6 +1583,10 @@
 		color: #A03333;
 		text-decoration: none;
 	}
+	.img-link {
+		border-bottom: dotted 0px;
+		text-decoration: none;
+	}
 
 		a:hover {
 			border-bottom-color: transparent;
@@ -2062,6 +2066,10 @@
 		.image img {
 			border-radius: 0.35em;
 			display: block;
+		}
+
+		#vertical-align {
+			vertical-align: super;
 		}
 
 		.image.left {
