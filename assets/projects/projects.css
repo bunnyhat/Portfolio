@@ -223,6 +223,12 @@ p:first-child { padding: .1em; }
     color: white;
 }
 
+#test {
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 0%, 10%);
+}
+
 .divider {
     color: black;
     font-size: 1.2em;

@@ -9,7 +9,7 @@
 
 /* Reset */
 
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 		margin: 0;
 		padding: 0;
 		border: 0;
@@ -1631,6 +1631,17 @@
 		font-family: 'Ropa Sans', sans-serif;
 		line-height: 1.5em;
 	}
+
+	table, th, td {
+		background-color: white;
+		border: 0px solid black;
+		font-size: 1.2em;
+		line-height: 400%;
+		font-family: 'Ropa Sans', sans-serif;
+		vertical-align: middle;
+		text-align: center;
+	}
+
 	.detailsLink {
 		font-size: 0.65em;
 		font-family: 'Ropa Sans', sans-serif;
@@ -2284,13 +2295,13 @@
 	}
 
 		table tbody tr {
-			border: solid 1px #efefef;
+			border: solid 1px white;
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: #f7f7f7;
+				background-color: white;
 			}
 
 		table td {
@@ -2298,19 +2309,18 @@
 		}
 
 		table th {
-			color: #787878;
+			color: white;
 			font-size: 0.9em;
 			font-weight: 400;
 			padding: 0 0.75em 0.75em 0.75em;
-			text-align: left;
 		}
 
 		table thead {
-			border-bottom: solid 2px #efefef;
+			border-bottom: solid 2px white;
 		}
 
 		table tfoot {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px white;
 		}
 
 		table.alt {
@@ -2318,7 +2328,7 @@
 		}
 
 			table.alt tbody tr td {
-				border: solid 2px #efefef;
+				border: solid 2px white;
 				border-left-width: 0;
 				border-top-width: 0;
 			}
