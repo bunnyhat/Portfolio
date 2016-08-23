@@ -2504,6 +2504,12 @@
 			text-transform: capitalize;
 			font-family: 'Josefin Sans', sans-serif;
 		}
+
+		.work-item #small-text {
+			font-size: 0.65em;
+			text-transform: capitalize;
+			font-style: italic;
+		}
 				
 		.work-item #status {
 			font-style: bold;
@@ -2514,7 +2520,7 @@
 		.work-item #platform, .work-item #language {
 			font-size: 0.95em;
 			font-family: 'Economica', sans-serif;
-			line-height: 150%;
+			line-height: 0.5em;
 		}
 
 		.work-item #playButtons {
