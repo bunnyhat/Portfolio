@@ -11,15 +11,20 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="//cdn.rawgit.com/noelboss/featherlight/1.5.0/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,greek' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Josefin+Sans|Ropa+Sans|BenchNine|Kreon|Economica:700&subset=latin,greek' rel='stylesheet' type='text/css'>
+		<link href="assets/dist/css/lightbox.css" rel="stylesheet">
+		<!--<link rel="stylesheet" href="assets/css/page-style.css">-->
+        <!--<link rel="stylesheet" href="assets/css/scrollable.css">-->
+		
 	</head>
-	<body id="top">
+	<body id="top" class="hide-overlay">>
 
 		<!-- Header -->
 			<header id="header">
-				<a href="" class="image avatar"><img src="images/avatar.png" /></a>
+				<a href="#top" class="image avatar"><img src="images/avatar.png" /></a>
 				<h1><strong>I am Zeeshan Mohammed</strong>, a video game<br />
 				programmer, located in Toronto, Ontario.<br /></h1>
 			</header>
@@ -30,11 +35,11 @@
 				<!-- One -->
 					<section id="one">
 					<header class="major">
-						<h1>Welcome to my Portfolio.</h1>
+						<h1><a id="top">Welcome to my Portfolio.</a></h1>
 					</header>
 					<h2>About Me</h2>
-					My name is Zeeshan Mohammed. I am a game designer in Toronto, Ontario, who aims to be an ambitious game system designer, 
-					alongside a level designer and scriptwriter. I elevate my technical skills to strengthen my work and my team during collaborations.
+						My name is Zeeshan Mohammed. I am a game designer in Toronto, Ontario, who aims to be an ambitious game system designer, 
+						alongside a level designer and scriptwriter. I elevate my technical skills to strengthen my work and my team during collaborations.
 					</section>
 
 					<div class="tabs">
@@ -53,34 +58,38 @@
 							<a href="assets/projects/_projectDetails.html" class="detailsLink" target="_blank">(See project details)</a></h2>
 						<div class="row">
 							<article class="6u 12u$(xsmall) work-item">
-								<a href="images/fulls/alienInvazion.gif" class="image fit thumb"><img src="images/thumbs/dustySpace.png" alt="" /></a>
+								<a href="images/fulls/alienInvazion.gif" class="image fit thumb" data-lightbox="image-1" data-title="My caption"><img src="images/thumbs/dustySpace.png" alt="" /></a>
 								<h3><b>Dusty Space</b> - <span id="product">Made with Unity</span></h3>
 								<p>Based off the retro space invaders but with a twist. Team up or compete with a partner to defend against a limitless horde of enemies in space.<br />
 								<span id="platform"><u>Platform</u>: PC. Android. (Soon on iOS)</p></span>
-								<p>
-									<a href= "assets/projects/Dusty Space/index.html" class="img-link" id="vertical-align" target="_blank"><img src="images/html5.png" /></a>
-									<a href= "https://play.google.com/store/apps/details?id=com.redJazz.alienInvazion&hl=en" class="img-link" id="vertical-align" target="_blank"><img src="images/googleplay_badge.png" /></a>
-									<a class="img-link" id="vertical-align" target="_blank"><img src="images/appstore2_badge.png" /></a>
-								</p>
+								<span id="language"><u><p>Language</u>: C#</p></span>
+								<span id="playButtons"><u><p>Play Now On</u>:</p>
+									<a href= "assets/projects/Dusty Space/index.html" class="img-link" target="_blank"><img src="images/html5.png" /></a>
+									<sup><a href= "https://play.google.com/store/apps/details?id=com.redJazz.alienInvazion&hl=en" class="img-link" target="_blank"><img src="images/googleplay_badge.png" /></a></sup>
+									<!--<a class="img-link" id="vertical-align" target="_blank"><img src="images/appstore2_badge.png" /></a>-->
+								</span>
 							</article>
 							
 							<article class="6u$ 12u$(xsmall) work-item">
-								<a href="images/fulls/workInProgress.jpg" class="image fit thumb"><img src="images/thumbs/gameInProgress.jpg" alt="" /></a>
-								<h3><b>Rougelike</b> - <span id="product">Made with Unity</span></h3>
+								<a href="images/fulls/workInProgress.jpg" class="image fit thumb" data-lightbox="image-1" data-title="My caption"><img src="images/thumbs/gameInProgress.jpg" alt="" /></a>
+								<h3><b>Rougelike</b> - <span id="product">Made with Unity - </span><span id="status">[Under Development]</span></h3>
 								<p>A 4-player 2D dungeon roguelike game, where each player must traverse through randomly generated rooms. Each player has a specific type of skill-set. Players can chose to be a Warrior, Mage, Archer or a Cleric. Fight off skeleton minions and wild beasts together to stay alive and get deeper in the dungeon.<br />
 								<span id="platform"><u>Platform</u>: PC.</p></span>
+								<span id="language"><u><p>Language</u>: C#</p></span>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/workInProgress.jpg" class="image fit thumb"><img src="images/thumbs/gameInProgress.jpg" alt="" /></a>
-								<h3><b>Tank'd</b> - <span id="product">Made with Unity</span></h3>
+								<h3><b>Tank'd</b> - <span id="product">Made with Unity - </span><span id="status">[Work In Progress]</span></h3>
 								<p>Four Tanks trapped on a map. Assorted power-up scattered around the map. Only one tank can come out alive. Inspired by the retro Bomberman like game but with tanks.<br />
 								<span id="platform"><u>Platform</u>: PC.</p></span>
+								<span id="language"><u><p>Language</u>: C#</p></span>
 							</article>
  							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/workInProgress.jpg" class="image fit thumb"><img src="images/thumbs/gameInProgress.jpg" alt="" /></a>
-								<h3><b>Bounce</b> - <span id="product">Made with Unity</span></h3>
+								<h3><b>Bounce</b> - <span id="product">Made with Unity - </span><span id="status">[Buld Phase]</span></h3>
 								<p>Players must move platforms downwards on the left and right sides of the screen to help keep a ball from bouncing from one end to the other for as long as possible and gain a high score.<br />
 								<span id="platform"><u>Platform</u>: PC. Android. (Soon on iOS)</p></span>
+								<span id="language"><u><p>Language</u>: C#</p></span>
 							</article>
 <!--							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/05.jpg" class="image fit thumb"><img src="images/thumbs/05.jpg" alt="" /></a>
@@ -105,19 +114,22 @@
 								<h3><b>Last Man Battalion</b> - <span id="product">Made with Android SDK</span></h3>
 								<p>Player will take the role of an army-man in this 2D top-down game where he must fight the hordes of zombies.<br />
 								<span id="platform"><u>Platform</u>: Android devices</p></span>
+								<span id="language"><u><p>Language</u>: Java</p></span>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
 								<h3><b>Fast Food Chain</b> - <span id="product">Made with XCode</span></h3>
 								<p>A 2D game where players work at a hotdog/burger stand and must complete orders within the given time. Make as much money with the amount of supplies you have.<br />
 								<span id="platform"><u>Platform</u>: iOS</p></span>
+								<span id="language"><u><p>Language</u>: Swift</p></span>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/snakes.png" class="image fit thumb"><img src="images/thumbs/snakes.jpg" alt="" /></a>
 								<h3><b>Snakes</b> - <span id="product">Made with MelonJS</span></h3>
 								<p>A single or 2-player 2D game where each player is a snake that must collect pallets to grow and avoid obstacles.<br />
 								Click <a href="assets/projects/snakesFinal/index.html">here</a> to play the game in a browser.<br />
-								<span id="platform"><u>Platform</u>: PC (Browser based)</p></span>
+								<span id="platform"><u>Platform</u>: Browser based</p></span>
+								<span id="language"><u><p>Language</u>: MelonJS and HTML5</p></span>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/tyrant.png" class="image fit thumb"><img src="images/thumbs/tyrant.png" alt="" /></a>
@@ -125,6 +137,7 @@
 								<p>A 2D top-down RPG where the player must take the role of a young warrior who must retrieve one of the three lost fragments of life. 
 								Body, Mind and Soul. The High King seeks his help and sends him in dungeon where one of the fragments where kept. The player must fight the enemy and traps in order to confront the man behind this tragedy.<br />
 								<span id="platform"><u>Platform</u>: PC.</p></span>
+								<span id="language"><u><p>Language</u>: C#</p></span>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/SpaceEscape.png" class="image fit thumb"><img src="images/thumbs/SpaceEscape.png" alt="" /></a>
@@ -132,6 +145,7 @@
 								<p>A 3D third-person shooter, where players will take a journey to escape Earth after an alien race, 
 								known as the Bosons crash landed on Earth.<br />
 								<span id="platform"><u>Platform</u>: PC.</p></span>
+								<span id="language"><u><p>Language</u>: C#</p></span>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/IDNTZC.png" class="image fit thumb"><img src="images/thumbs/IDNTZC.png" alt="" /></a>
@@ -139,12 +153,14 @@
 								<p>A 3D third-person shooter where a player must treverse through a maze, fighting off hordes of zombies and complete 2 objectives. 
 								Find the cure then bring it to the extraction.<br />
 								<span id="platform"><u>Platform</u>: PC.</p></span>
+								<span id="language"><u><p>Language</u>: C#</p></span>
 							</article>
 							<article class="6u 12u$(xsmall) work-item">
 								<a href="images/fulls/SMB3.png" class="image fit thumb"><img src="images/thumbs/SMB3.png" alt="" /></a>
 								<h3><b>Super Mario Bros. 3</b> - <span id="product">Made with MelonJS</span></h3>
-								<p>Video Game Prototype project to make World 1 of Super Mario Bros. 3 using MelonJS and HTML5<br />
-								<span id="platform"><u>Platform</u>: PC.</p></span>
+								<p>Video Game Prototype project to make World 1 of Super Mario Bros. 3 using MelonJS and HTML5<br /></p>
+								<span id="platform"><u><p>Platform</u>: Browser based</p></span>
+								<span id="language"><u><p>Language</u>: MelonJS and HTML5</p></span>
 							</article>
 <!-- 							<article class="6u$ 12u$(xsmall) work-item">
 								<a href="images/fulls/06.jpg" class="image fit thumb"><img src="images/thumbs/06.jpg" alt="" /></a>
@@ -156,23 +172,20 @@
 
 							<section id="three">
 							<h2 id="_contactMe">Get In Touch
-								<a href="" class="detailsLink"">(Back To Top)</a></h2>
+								<a href="#top" class="detailsLink"">(Back To Top)</a></h2>
 							
 							<p>A copy of my resume can by downloaded by clicking <a href="assets/ZeeshanMohammed_resume.pdf" download class="icon fa-file-pdf-o"></a>. If you have any questions, concers or would like to get in-touch, my contact details can be found just below.</p>
 
-
 							<div class="4u$ 12u$(small)">
-							
 								<ul class="labeled-icons">
 									<li>
 										<h3 class="icon fa-home"><span class="label">Address</span></h3>
-										4 Leameadow Way<br />
-										Toronto, ON<br />
+										Toronto, Ontario<br />
 										Canada
 									</li>
 									<li>
 										<h3 class="icon fa-mobile"><span class="label">Phone</span></h3>
-										+1-416-878-8426
+										<a href="tel:+1-416-878-8426">+1-416-878-8426</a>
 									</li>
 									<li>
 										<h3 class="icon fa-envelope-o"><span class="label">Email</span></h3>
@@ -194,10 +207,10 @@
 		<!-- Footer -->
 			<footer id="footer">
 				<ul class="icons">
-					<li><a href="https://twitter.com/bunny_hat" class="icon fa-twitter"><span class="label" alt= "Twitter">Twitter</span></a></li>
-					<li><a href="https://www.tumblr.com/blog/redjazzgames" class="icon fa-tumblr"><span class="label" alt= "Twitter">Tumblr</span></a></li>
-					<li><a href="http://steamcommunity.com/id/bunny_hat/" class="icon fa-steam"><span class="label" alt= "Steam">Steam</span></a></li>
-					<li><a href="mailto:zee_shan265@hotmail.com" class="icon fa-envelope-o"><span class="label" alt= "Email">Email</span></a></li>
+					<li><a href="https://twitter.com/bunny_hat" class="icon fa-twitter" target="_blank"><span class="label" alt= "Twitter">Twitter</span></a></li>
+					<li><a href="https://ca.linkedin.com/in/zeeshan-mohammed-3b44a5126" class="icon fa-linkedin-square" target="_blank"><span class="label" alt= "LinkedIn">LinkedIn</span></a></li>
+					<li><a href="http://steamcommunity.com/id/bunny_hat/" class="icon fa-steam" target="_blank"><span class="label" alt= "Steam">Steam</span></a></li>
+					<li><a href="mailto:zee_shan265@hotmail.com" class="icon fa-envelope-o" target="_blank"><span class="label" alt= "Email">Email</span></a></li>
 					<li><a href="assets/ZeeshanMohammed_resume.pdf" download class="icon fa-file-pdf-o"><span class="label" alt= "Resume">Resume</span></a></li>
 				</ul>
 				<ul class="copyright">
@@ -206,12 +219,31 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<!--<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>-->
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+			<script src="assets/dist/js/lightbox.js"></script>
+			<script src="assets/dist/js/lightbox-plus-jquery.js"></script>
+			<!--<script src="assets/js/click.js"></script>-->
+<script>
+		$(function() {
+			$('a[href*="#"]:not([href="#"])').click(function() {
+				if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html, body').animate({
+					scrollTop: target.offset().top
+					}, 1000);
+					return false;
+				}
+				}
+			});
+		});
+</script>
 
 	</body>
 </html>
