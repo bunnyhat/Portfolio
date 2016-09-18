@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="projects.css">
+    <link rel="stylesheet" type="text/css" href="viewport.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap-3.3.6-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=latin,greek' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Josefin+Sans|Ropa+Sans|BenchNine|Kreon|Economica:700&subset=latin,greek' rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="projectDetails.js"></script>
+
+    <script src="_webGL_3dMV/three.js"></script>
+    <script src="_webGL_3dMV/Detector.js"></script>
+    <script src="_webGL_3dMV/OrbitControls.js"></script>
+    <script src="_webGL_3dMV/OBJLoader.js"></script>
+    <script src="_webGL_3dMV/MTLLoader.js"></script>
+    <script src="_webGL_3dMV/_viewer.js"></script>
+
+    <title>Zeeshan Mohammed - Project Details</title>
+</head>
+
+<body class="no-touch">
+    <div class="content">
+
+        <div class="header">
+            <p class="w3-large">
+                <a href="../../index.html"><img src="_images/portfolio_name.png" alt="Click to Return To My Portfolio"></a>
+            </p>
+        </div>
+
+
+        <!--===========================================================================================================================-->
+        <!--SIDE BAR TABLE OF CONTENTS-->
+        <!--===========================================================================================================================-->
+        <nav class="main-menu">
+            <ul>
+                <li>
+                    <a href="../../index.html">
+                        <i class="fa fa-home fa-2x"></i>
+                        <span class="nav-text" id="header-text">
+                        Return to Portfolio
+                    </span>
+                    </a>
+                </li>
+            </ul>
+
+            <li>
+                <i class="fa  fa-2x"></i>
+                <span class="nav-text" id="header-text">Personal Projects</span>
+            </li>
+
+            <ul>
+                <li class="has-subnav">
+                    <a href="#_aboutDustySpace">
+                        <i class="fa  fa-2x"></i>
+                        <span class="nav-text">
+                            Dusty Space
+                        </span>
+                    </a>
+                </li>
+            </ul>
+
+            <li class="has-subnav">
+                <i class="fa  fa-2x"></i>
+                <span class="nav-text" id="header-text">School Projects</span>
+            </li>
+
+            </ul>
+            <li class="has-subnav">
+                <a href="#_aboutSnakes">
+                    <i class="fa  fa-2x"></i>
+                    <span class="nav-text">
+                            Snakes
+                        </span>
+                </a>
+            </li>
+
+            <li class="has-subnav">
+                <a href="#_aboutFFC">
+                    <i class="fa  fa-2x"></i>
+                    <span class="nav-text">
+                            Fast Food Chain
+                        </span>
+                </a>
+            </li>
+
+            <li class="has-subnav">
+                <a href="#_aboutLastManBattalion">
+                    <i class="fa  fa-2x"></i>
+                    <span class="nav-text">
+                            Last Man Battalion
+                        </span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#_aboutSpaceEscape">
+                    <i class="fa  fa-2x"></i>
+                    <span class="nav-text">
+                            Space Esacape
+                        </span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#_aboutIDidNazi">
+                    <i class="fa  fa-2x"></i>
+                    <span class="nav-text">
+                            I Did Nazi That Coming
+                        </span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#_aboutTyrant">
+                    <i class="fa  fa-2x"></i>
+                    <span class="nav-text">
+                            Tyrant
+                        </span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#_aboutSuperMarioBros3">
+                    <i class="fa  fa-2x"></i>
+                    <span class="nav-text">
+                            Super Mario Bros. 3
+                        </span>
+                </a>
+            </li>
+            </ul>
+
+            <li>
+                <a href="#_about3dModels.html">
+                <i class="fa fa-cube fa-2x"></i>
+                <span class="nav-text" id="header-text">
+                    3D Models
+                    </span>
+                </a>
+            </li>
+        </nav>
+
+
+        <!--===========================================================================================================================-->
+        <!--DUSTY SPACE-->
+        <!--===========================================================================================================================-->
+        <div id="page-wrap" class="col-12">
+            <div class="gameName" id="_aboutDustySpace"><a id="displayDustySpace" href="javascript:alienInvazion();">Dusty Space</a></div>
+            <span id="toggleDustySpace" style="display: none">
+			<div class="aboutGame" align="center">
+				<div class="wrap">	    
+				    <!-- Define all of the tiles: -->
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/Dusty Space/Screenshot_1.png" />
+				        <div class="titleBox">Main Menu</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/Dusty Space/Screenshot_2.png" />
+				        <div class="titleBox">Settings</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/Dusty Space/Screenshot_3.png" />
+				        <div class="titleBox">Start of 1st wave</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/Dusty Space/Screenshot_4.png" />
+				        <div class="titleBox">Enemies spawn</div>
+				      </div>
+				    </div>
+
+                    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/Dusty Space/Screenshot_5.png" />
+				        <div class="titleBox">Fighting the horde</div>
+				      </div>
+				    </div>
+
+                    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/Dusty Space/Screenshot_6.png" />
+				        <div class="titleBox">Game paused</div>
+				      </div>
+				    </div>
+
+                    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/Dusty Space/Screenshot_7.png" />
+				        <div class="titleBox">Game Over</div>
+				      </div>
+				    </div>
+
+	    		</div>
+				<h2 class="about">About The Game</h2>
+					<h5>
+						<p>Dusty Space is a two player 2D space shooter, made in Unity. Players can either compete or cooperate with each other in order defeat incoming waves of UFO ships. Players gain points for each kill but can also lose points for shooting at each other.</p>
+						<p>With a simple controls layout, this game can be played on a browser or tablet. Players are allowed to move left and right to dodge oncoming laser beams that the enemies or the opposite player shoots at them.</p>
+						<p>Once both players have lost against the waves of enemies, they can see the score they achieved from the number of kills they got.</p>
+					</h5>
+
+				<h2 class="features">Features</h2>
+					<h5>
+						These are some the features included in the game:
+						<ul class="indentList">
+							<li>- Keyboard and Touch Controls</li>
+							<li>- Cooperate or Compete</li>
+							<li>- Each player has their own pause button</li>
+							<li>- Volume Control on Main Menu</li>
+							<li>- Unlimited randomly generated wave of enemies</li>
+							<li>- High score display in game and on Game Over screen</li>
+						</ul>
+					</h5>
+
+ 				<h2 class="how">How it was made</h2>
+					<h5>
+						When coming up with ideas on how to make a retro space invaders type game different, I thought to myself, "How can I make this different than what had already been made years ago?". After very little thinking, I decided why not make it 2 players, where players can work together to fight off the invaders. I had looked up sprites and found the perfect match to what I wanted my game to look like. A quick google search on a space background and I had the base assets to get started on my game. Once I got started, I knew I made the ships on opposing sides and wanted the enemies to be in the middle of the screen. First I maped out the players movement then figured out how to make the players shoot. From there, I went on to writing enemy behavior, they would move from one end of the screen, once they hit that side, they would head in the oppositie direction. Then of course, hit detection between the player's laser beams and the enemy's laser beams, and the "KA-BOOMS" were added. While doing collision detection, I asked myself, "What about when a player shoots the other player?!", then what I thought would be a co-op game, became not only a co-op game but also a competetive game. Soon, I added hit detection if players hit each other. Once those basic mechanics where fully polished, I went onto the UI of the game. Grabbed that funky font that suited my space theme and wrote a short script to display a score when players get a kill against the enemies. And deducted points for shooting at the other player. Health was added to the game after that, where as enemies are a one hit kill. A pause and game over UI was implemented. Following that, a simple Game Manager which acts a singleton was added to manage game pauses, player(s) death, sound manager and game over mechanics. To make the sound manager work, I grabbed a few "pew pew", "KA-BOOM" and button click/tap sounds off a free sound website. After a few iterations of polishing, I decided to make the game playable on tablets. In order to do that, buttons were placed on the screen to show where to tap to move left and right and to shoot. Then a few small changes and additions were made to the player movement scripts to detect taps for the approriate buttons. Finally, I tested it on my tablet to ensure it was playable from start to end and play tested it with others.
+					</h5>
+
+				<h2 class="thanks">Special Thanks To</h2>
+					<h5>
+						<ul class="centerList">
+							<li>- Character Sprites by Phil</a></li>
+							<li>- <a href="http://opengameart.org/content/lasers-and-beams" class="underline">Lasers and beams by Rawdanitsu</a></li>
+							<li>- Space Background by Google Images</li>			
+							<li>- <a href="https://www.freesound.org/people/bubaproducer/sounds/151022/" class="underline">Laser Shot Silenced by bubaproducer</a></li>
+							<li>- <a href="https://www.freesound.org/people/Julien%20Matthey/sounds/201571/" class="underline">JM_FX_Boom 01a by Julien Matthey</a></li>
+							<li>- <a href="https://www.freesound.org/people/KorgMS2000B/sounds/54405/" class="underline">Button Click by KorgMS2000B</a></li>
+							<li>- <a href="http://www.1001fonts.com/pwworldsend2112-font.html" class="underline">PW WORLDS END 2112 Font by Peax Webdesign</a></li>
+							<li>- <a href="http://www.myfontfree.com/download-pandora_limiter-zip44164.htm" class="underline">Pandora Limiter Font by Andeh Pinkard</a></li>
+							<li>- <a href="http://iconmonstr.com/sound-wave-1/" class="underline">Sound Wave Icon</a></li>						
+						</ul>
+					</h5>
+
+                    <div class="badges">
+                        <h2 class="thanks">Play Now On</h2>
+                        <a href= "Dusty Space/index.html" id="vertical-align" target="_blank"><img src="../../images/html5.png" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=com.redJazz.alienInvazion&hl=en" id="vertical-align" target="_blank"><img src="../../images/googleplay_badge.png" /></a>
+                        <a  id="vertical-align" target="_blank"><img src="../../images/appstore2_badge.png" /></a>
+                    </div>
+			</div></span>
+        </div>
+
+        <!--===========================================================================================================================-->
+        <!--FAST FOOD CHAIN-->
+        <!--===========================================================================================================================-->
+        <div id="page-wrap" class="col-12">
+            <div class="gameName" id="_aboutFFC"><a id="displayFFC" href="javascript:ffc();">Fast Food Chain</a></div>
+            <span id="toggleFFC" style="display: none">
+			<div class="aboutGame" align="center">
+				<div class="wrap">	    
+				    <!-- Define all of the tiles: -->
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/FFC/Screenshot_1.png" />
+				        <div class="titleBox">Main Menu</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/FFC/Screenshot_2.png" />
+				        <div class="titleBox">Gameplay</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/FFC/Screenshot_3.png" />
+				        <div class="titleBox">Resupply Screen</div>
+				      </div>
+				    </div>
+
+	    		</div>
+				<h2 class="about">About The Game</h2>
+					<h5>
+						<p>2D tap game, where players will be serving hotdogs and burgers by putting the right topping for the customers.</p>
+                        <p>Earn money before the day is over to buy supplies for the next day to stay in business.</p>
+					</h5>
+
+				<h2 class="features">Features</h2>
+					<h5>
+						These are some the features included in the game:
+						<ul class="indentList">
+							<li>- Touch controls</li>
+							<li>- Earn money to spend on supplies for the next day</li>
+							<li>- High score tracked by how much money was earned</li>
+						</ul>
+					</h5>
+
+ 				<h2 class="how">How it was made</h2>
+					<h5>
+						First me and my group members gattered the sprites from Google Images for the hotdog, burger, the toppings, the images for when the toppings are clicked, 
+                        and the background. Then we began by creating the mechanincs, one of us worked on making the hotdog or burger appear one at a time randomly, stay for about 6 seconds 
+                        then go back up. I worked on making the toppings being responsive when it was tapped. We had 3 toppings the customers can ask for, ketchup, mustard or mayo. 
+                        Once that was done, we worked on making the right sprite appear on the burger or hotdog when clicked. Next, we worked on making a timer, and giving money as reward for 
+                        tapping on the right topping. When the timer goes down to 0, a GUI menu will come up that will allow players to buy supplies for the next day.
+					</h5>
+
+				<h2 class="thanks">Special Thanks To</h2>
+					<h5>
+						<ul class="centerList">
+                            <li>- My group member on this project - Kirushanth and Demi</li>
+							<li>- Google Images for hotdog, burger, toppings and sticky note images</li>
+							<li>- Google Images for background</a></li>
+							<li>- XCode and Swift</li>						
+						</ul>
+					</h5>
+			</div></span>
+        </div>
+
+        <!--===========================================================================================================================-->
+        <!--LAST MAN BATTALION-->
+        <!--===========================================================================================================================-->
+        <div id="page-wrap" class="col-12">
+            <div class="gameName" id="_aboutLastManBattalion"><a id="displayLMB" href="javascript:lastManBattalion();">Last Man Battalion</a></div>
+            <span id="toggleLMB" style="display: none">
+			<div class="aboutGame" align="center">
+				<div class="wrap">	    
+				    <!-- Define all of the tiles: -->
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/LMB/Screenshot_1.png" />
+				        <div class="titleBox">Main Menu</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/LMB/Screenshot_2.png" />
+				        <div class="titleBox">Start of the game</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/LMB/Screenshot_3.png" />
+				        <div class="titleBox">Incoming zombies</div>
+				      </div>
+				    </div>
+
+				    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/LMB/Screenshot_4.png" />
+				        <div class="titleBox">Game paused</div>
+				      </div>
+				    </div>
+
+                    <div class="box">
+				      <div class="boxInner">
+				        <img class="displayImages" src="_images/LMB/Screenshot_5.png" />
+				        <div class="titleBox">Game Over</div>
+				      </div>
+				    </div>
+
+	    		</div>
+				<h2 class="about">About The Game</h2>
+					<h5>
+						<p>2D top-down zombie survival. Only one life, survive for as long as you can to get a high score.</p>
+					</h5>
+
+				<h2 class="features">Features</h2>
+					<h5>
+						These are some the features included in the game:
+						<ul class="indentList">
+							<li>- Touch Controls</li>
+							<li>- Unlimited ammo to survive against the horde of zombies</li>
+							<li>- Pause screen</li>
+							<li>- On screen touch buttons</li>
+							<li>- High score display in game and on Game Over screen</li>
+						</ul>
+					</h5>
+
+ 				<h2 class="how">How it was made</h2>
+					<h5>
+						Before starting on coding the mechanics on Android Studio, me and my partner made the sprites for the player, zombies, spawners and tiles for the floor and border. 
+                        Then while my partner was making the character movement script, I was working on the spawner and making it generate zombies at a random rate. Then my partner fine 
+                        tuned the spawner, while I worked on making the player shoot in the 4 directions, depending on where the player was facing and adding a collision box. 
+                        Next, we worked on destroying the zombies when a palet which was used as a basic bullet-like object, it should despawn the zombie and add it back to the spawner pool. 
+                        Then, an explosion sprite was added and placed where the zombie dies. I worked on creating the map and placing spawners and walls as well as making the touch buttons 
+                        appear on-screen so the player knows where the movement buttons are and where the shoot and pause button are. After that, a very basic pause screen was made that gets 
+                        enabled when pause button is pressed, and a boolean check happens, if the game is paused and pause button is tapped, then game should un-pause. Once that was done, we 
+                        moved on to making the title screen and the game over screen when the player dies, to display the score they earned during that playtime. On the main menu, the highest 
+                        achieved score is shown, which is updated if the player manages to beat their high score.
+					</h5>
+
+				<h2 class="thanks">Special Thanks To</h2>
+					<h5>
+						<ul class="centerList">
+                            <li>- My group member on this project - Kirushanth</li>
+							<li>- Sprites were made on Paint and Photoshop</li>
+                            <li>- Google Images for the triOS College logo</li>
+                            <li>- Android Studio</li>						
+						</ul>
+					</h5>
+			</div></span>
+        </div>
+
+        <!--===========================================================================================================================-->
+        <!--SNAKES-->
+        <!--===========================================================================================================================-->
+        <div id="page-wrap" class="col-12">
+            <div class="gameName" id="_aboutSnakes"><a id="displaySnake" href="javascript:snakes();">Snakes</a></div>
+
+            <span id="toggleSnake" style="display: none">
+        <div class="aboutGame" align="center">
+            <div class="wrap">      
+                        <!-- Define all of the tiles: -->
+            <div class="box">
+              <div class="boxInner">
+                <img class="displayImages" src="_images/Snakes/Screenshot_1.png" />
+                <div class="titleBox">Main Menu</div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="boxInner">
+                <img class="displayImages" src="_images/Snakes/Screenshot_2.png" />
+                <div class="titleBox">How To Play</div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="boxInner">
+                <img class="displayImages" src="_images/Snakes/Screenshot_3.png" />
+                <div class="titleBox">Gameplay</div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="boxInner">
+                <img class="displayImages" src="_images/Snakes/Screenshot_4.png" />
+                <div class="titleBox">Game Over</div>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="aboutGame" align="center">
+            <h2 class="about">About The Game</h2>
+                <h5>
+                    <p>Snakes was a class final project for the Advanced HTML course. It was designed and coded using melonJS. It is like the original Snakes game, but with an added bonus of having 2 player mode.</p>
+                    <p>Both players must eat as many pallets to grow in size and trap the other player in order to win. Pallets give points and in the end, the player that wins, then gets a high score of the pallets obtained by both the players.</p>
+                    <p>This game can also be played in one player mode, just like the classic one on any browser.</p>
+                </h5>
+
+            <h2 class="features">Features</h2>
+                <h5>
+                    These are some the features included in the game:
+                    <ul class="indentList">
+                        <li>- Keyboard Controls</li>
+                        <li>- Play alone or with a friend to see who can get the most pallets and trap the other player</li>
+                        <li>- Randomly generated obstacles on the screen that move each time you play</li>
+                        <li>- High score for both 1 and 2 player mode</li>
+                    </ul>
+                </h5>
+
+            <h2 class="how">How it was made</h2>
+                <h5>
+                    When coming up with ideas on how to make a retro space invaders type game different, I thought to myself, "How can I make this different than what had already been made years ago?". After very little thinking, I decided why not make it 2 players, where players can work together to fight off the invaders. I had looked up sprites and found the perfect match to what I wanted my game to look like. A quick google search on a space background and I had the base assets to get started on my game. Once I got started, I knew I made the ships on opposing sides and wanted the enemies to be in the middle of the screen. First I maped out the players movement then figured out how to make the players shoot. From there, I went on to writing enemy behavior, they would move from one end of the screen, once they hit that side, they would head in the oppositie direction. Then of course, hit detection between the player's laser beams and the enemy's laser beams, and the "KA-BOOMS" were added. While doing collision detection, I asked myself, "What about when a player shoots the other player?!", then what I thought would be a co-op game, became not only a co-op game but also a competetive game. Soon, I added hit detection if players hit each other. Once those basic mechanics where fully polished, I went onto the UI of the game. Grabbed that funky font that suited my space theme and wrote a short script to display a score when players get a kill against the enemies. And deducted points for shooting at the other player. Health was added to the game after that, where as enemies are a one hit kill. A pause and game over UI was implemented. Following that, a simple Game Manager which acts a singleton was added to manage game pauses, player(s) death, sound manager and game over mechanics. To make the sound manager work, I grabbed a few "pew pew", "KA-BOOM" and button click/tap sounds off a free sound website. After a few iterations of polishing, I decided to make the game playable on tablets. In order to do that, buttons were placed on the screen to show where to tap to move left and right and to shoot. Then a few small changes and additions were made to the player movement scripts to detect taps for the approriate buttons. Finally, I tested it on my tablet to ensure it was playable from start to end and play tested it with others.
+                </h5>
+
+            <h2 class="thanks">Special Thanks To</h2>
+                <h5>
+                    <ul class="centerList">
+                        <li>- My group member on this project - Kirushanth</li>
+                        <li>- Snakes body and head sprites made with Paint</li>
+                        <li>- Pallet and Obstacles sprite made in Adobe Fireworks</li>
+                        <li>- Menu Gradient Background made in Adobe Fireworks</li>
+                        <li>- Background by Google Images</li>
+                        <li>- UI Font provided by melonJS (hue and saturation changes were made with Adobe Fireworks)</li>                  
+                        <li>- <a href="http://www.1001fonts.com/pwworldsend2112-font.html" class="underline">PW WORLDS END 2112 Font by Peax Webdesign</a></li>                       
+                    </ul>
+                </h5>
+            </div></span>
+        </div>
+        </span>
+    </div>
+
+    <!--===========================================================================================================================-->
+    <!--SPACE ESCAPE-->
+    <!--===========================================================================================================================-->
+    <div id="page-wrap" class="col-12">
+        <div class="gameName" id="_aboutSpaceEscape"><a id="displaySpaceEscape" href="javascript:spaceEscape();">Space Escape</a></div>
+
+        <span id="toggleSpaceEscape" style="display: none">
+            <div class="aboutGame" align="center">
+                <div class="wrap">      
+                    <!-- Define all of the tiles: -->
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Space Escape/Screenshot_1.png" />
+            <div class="titleBox">Splash Screen</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Space Escape/Screenshot_2.png" />
+            <div class="titleBox">Title Screen</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Space Escape/Screenshot_3.png" />
+            <div class="titleBox">First Level - Crash site</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Space Escape/Screenshot_4.png" />
+            <div class="titleBox">Underground Level</div>
+          </div>
+        </div>
+
+    </div>
+
+        <div class="aboutGame" align="center">
+            <h2 class="about">About The Game</h2>
+                <h5>
+                    <p>Space Escape was a school project that consisted of 13 group members. It is a 3D game set in the near future on an unknown planet.</p>
+                    <p>Player's must pick a main character and battle an alien race known as they Boson.</p>
+                    <p>To know more about the game, <a href="https://github.com/qcha0s/SpaceEscape" class="underline">click here</a> to visit the GitHub repository.</p>
+                </h5>
+
+            <h2 class="features">Features</h2>
+                <h5>
+                    These are some the features included in the game:
+                    <ul class="indentList">
+                        <li>- Low Poly</li>
+                        <li>- Keyboard/Mouse and Gamepad support</li>
+                        <li>- Rebuilt input manager inside Unity</li>
+                    </ul>
+                </h5>
+
+            <h2 class="how">How it was made</h2>
+                <h5>
+                    Space Escape was my first big group project with a game engine like Unity. My role on this project was to handle all GUI related elements in the game.
+                    From the splash screen to the main menu to the in-game HUD, to the options menu and keybindings configurations and pause screen.
+                    I had to overcome many challenges and obstacles and although I was not able to accomplish everything I had planned, I learnt many new things on how a game operates behind the scenes.
+                    My toughest challenge was to find a way to remake my own Input Manager. I had found a solution on GitHub and with a few tweaks, I was able to save and store custom key binding preferences.
+                    <p>A wiki containing my thoughts and ideas on the GUI portion of the game can be found <a href="https://github.com/qcha0s/SpaceEscape/wiki/GUI" class="underline">here</a>.
+                </h5>
+
+            <h2 class="thanks">Special Thanks To</h2>
+                <h5>
+                    <ul class="centerList">
+                        <li>- My group members on this project</li>
+                        <li>- <a href="https://github.com/daemon3000/InputManager" class="underline">Custom InputManager for Unity by daemon3000.</li>            
+                    </ul>
+                </h5>
+            </div></span>
+    </div>
+    </div>
+
+
+    <!--===========================================================================================================================-->
+    <!--I DID NAZI THAT ZOMBIE COMING-->
+    <!--===========================================================================================================================-->
+    <div id="page-wrap" class="col-12">
+        <div class="gameName" id="_aboutIDidNazi"><a id="displayIDNTC" href="javascript:iDidNazi();">I Did Nazi That Zombie Coming</a></div>
+
+        <span id="toggleIDNTC" style="display: none">
+            <div class="aboutGame" align="center">
+                <div class="wrap">      
+                    <!-- Define all of the tiles: -->
+                    <div class="box">
+                    <div class="boxInner">
+                        <img class="displayImages" src="_images/IDNTZC/Screenshot_1.png" />
+                        <div class="titleBox">Main Menu</div>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                    <div class="boxInner">
+                        <img class="displayImages" src="_images/IDNTZC/Screenshot_2.png" />
+                        <div class="titleBox">Start of the level</div>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                    <div class="boxInner">
+                        <img class="displayImages" src="_images/IDNTZC/Screenshot_3.png" />
+                        <div class="titleBox">Pause Screen</div>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                    <div class="boxInner">
+                        <img class="displayImages" src="_images/IDNTZC/Screenshot_4.png" />
+                        <div class="titleBox">Gameplay</div>
+                    </div>
+                    </div>
+
+                    <div class="box">
+                    <div class="boxInner">
+                        <img class="displayImages" src="_images/IDNTZC/Screenshot_5.png" />
+                        <div class="titleBox">Game Over</div>
+                    </div>
+                    </div>
+
+                </div>
+
+                    <div class="aboutGame" align="center">
+                        <h2 class="about">About The Game</h2>
+                            <h5>
+                                <p>I Did Nazi That Zombie Coming is a 3D third-person shooter where the player is stuck in a maze structure with zombies.</p>
+                                <p> The objective of the game is to grab the medical supples then head to the extraction point.</p>
+                            </h5>
+
+                        <h2 class="features">Features</h2>
+                            <h5>
+                                These are some the features included in the game:
+                                <ul class="indentList">
+                                    <li>- Keyboard/Mouse Controls</li>
+                                    <li>- Health and Ammo pickups throughout the maze</li>
+                                    <li>- Randomly generated objective locations</li>
+                                    <li>- Timer to set fastest time to end the level</li>
+                                </ul>
+                            </h5>
+
+                        <h2 class="how">How it was made</h2>
+                            <h5>
+                                Me and my teammate wanted to make a 3D shooter for our Unity project, so we decided to make a 3D maze shooter. The player is stuck in a maze where there is no start and finish.
+                                Players have 2 objectives - to stay alive against an unlimited horde of zombies and to get the medical supplies then get to the extraction. First, we made the character model on Fuse. 
+                                Then we made a couple of zombie models and added animations for all the characters that are being used in the game and plugged it into Unity. Once the main character was able to walk around and shoot, 
+                                we focused on making the zombies animate and made an array that holds all the zombie prefabs. Next, a spawner component was made in order to generate the zombies at the spawn point and make them move around 
+                                in random orders on a plane surface. While that was being done, the maze was being made using a height map and the Unity terrain object. A nav mesh was added to the maze that interacts with the zombies for them 
+                                to roam around on. A detection script was added to the zombies that would make them interact with the player when he comes in their line-of-sight. Once a zombie dies, they would be added back to the array and spawned after a wait time. 
+                                The terrain was painted and the objectives were added to the map. A model for the health pickup and ammo pickup were made and exported into Unity then placed around the maze. A particle system was added to the 
+                                objectives as flares to show the player where they need to go. Next, a GUI was made to show the health, ammo count and objectives. Lastly, the game manager was made along with the title screen, game scene, pause screen and an 
+                                end game and game over screen were made.
+                            </h5>
+
+                        <h2 class="thanks">Special Thanks To</h2>
+                            <h5>
+                                <ul class="centerList">
+                                    <li>- My group member on this project - Kirushanth</li>
+                                    <li>- Mixamo Fuse for character models</li>
+                                    <li>- Google Images for height map of a maze</li>
+                                    <li>- Unity Terrain to generate maze using height map</li>
+                                    <li>- Google SketchUp to make Health Pickup model</li>
+                                    <li>- SketchUp Warehouse for Ammo Crate model</li>                    
+                                </ul>
+                            </h5>
+                        </div>
+                </span>
+            </div>
+    </div>
+
+
+
+    <!--===========================================================================================================================-->
+    <!--TYRANT-->
+    <!--===========================================================================================================================-->
+    <div id="page-wrap" class="col-12">
+        <div class="gameName" id="_aboutTyrant"><a id="displayTryant" href="javascript:tyrant();">Tyrant</a></div>
+
+        <span id="toggleTyrant" style="display: none">
+            <div class="aboutGame" align="center">
+                <div class="wrap">      
+                    <!-- Define all of the tiles: -->
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Tyrant/Screenshot_1.png" />
+            <div class="titleBox">Main Menu</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Tyrant/Screenshot_2.png" />
+            <div class="titleBox">Prologue</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Tyrant/Screenshot_3.png" />
+            <div class="titleBox">Gameplay</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Tyrant/Screenshot_4.png" />
+            <div class="titleBox">Dialogue</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Tyrant/Screenshot_5.png" />
+            <div class="titleBox">Game Over</div>
+          </div>
+        </div>
+
+    </div>
+
+        <div class="aboutGame" align="center">
+            <h2 class="about">About The Game</h2>
+                <h5>
+                    <p>Tyrant is a 2D top-down RPG where the player will travel and save humanity by restoring the 3 missing fragments of Life - Body, Mind and Soul.</p>
+                    <p>Players will travel to a dungeon where one of the three fragments are being kept and stop the evil priest from stealing it.</p>
+                    <p>Treverse through traps and enemies to get to the end of the dungeon.</p>
+                </h5>
+
+            <h2 class="features">Features</h2>
+                <h5>
+                    These are some the features included in the game:
+                    <ul class="indentList">
+                        <li>- Basic keyboard controls</li>
+                        <li>- A tech demo of a dialogue system using XML</li>
+                        <li>- Different types of enemies and traps</li>
+                        <li>- Tile based maps</li>
+                    </ul>
+                </h5>
+
+            <h2 class="how">How it was made</h2>
+                <h5>
+                    Tyrant was my first project in Unity. It is suppose to have a Legend of Zelda feel to it. Doing this project alone and being new to Unity was a challenge for me as a lot of it was new to me. 
+                    I learnt a lot from making this game as the scope was a bit bigger than I had expected. First, I made the character sprites using Game Character Hub on Steam. And then gathered sprites off the web.
+                    Using Tiled, I made the maps and layed out the collisions then used Tiled2Unity to export the tiled map ontop Unity. Then I made the character move by making a movement script and detect collisons once the 
+                    character hit a collision box. This is the first time, I have done collisions and using a clamp method to stop the character from getting stuck or messing up its physics properties. After that, I had to make 
+                    a script that would do level progression. Once a player collided with a certain object the scene would change, for example: When the player wanted to leave his village which is on a small island, he must walk upto 
+                    a boat, once the player is on the boat, the level changes to the city. Next, I scripted basic enemies that would cause damage to the player once they collided. Next, the dungeon was made into 5 rooms that the player 
+                    must go through, each room was consists of different obstacles and enemies. The final room was a chamber where the boss battle took place. The player also needed a sword sprite that would need to appear when the attack 
+                    button was pressed depending on which direction the character is facing. Also, the player needed to know what he collided with in order to trigger an event or reduce health. When making the health, I wanted to do it in 
+                    a way where the player has 3 hearts to begin with an losses a piece of the heart when they get attacked by an enemy or a trap. After trying to implement this kind of method to work with the player and the GUI, I decided 
+                    to do a simple health bar. When it came time to submit the project, I made the title screen and an intro screen explaining the story and linking each scene together and a game over screen.
+                </h5>
+
+            <h2 class="thanks">Special Thanks To</h2>
+                <h5>
+                    <ul class="centerList">
+                        <li>- Character sprites from Game Character Hub (Steam)</li>
+                        <li>- RPG Enviornment sprites from Opengameart.org</li>
+                        <li>- Tiled2Unity to export tiled maps in Unity</li>
+                        <li>- Enemy and spike traps sprites from Opengameart.org</li>
+                    </ul>
+                </h5>
+            </div></span>
+    </div>
+    </div>
+
+    <!--===========================================================================================================================-->
+    <!--SUPER MARIO BROS. 3-->
+    <!--===========================================================================================================================-->
+    <div id="page-wrap" class="col-12">
+        <div class="gameName" id="_aboutSuperMarioBros3"><a id="displaySMB3" href="javascript:SMB3();">Super Mario Bros. 3</a></div>
+
+        <span id="toggleSMB3" style="display: none">
+            <div class="aboutGame" align="center">
+                <div class="wrap">      
+                    <!-- Define all of the tiles: -->
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Super Mario Bros 3/Screenshot_1.png" />
+            <div class="titleBox">Title Screen</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Super Mario Bros 3/Screenshot_2.png" />
+            <div class="titleBox">World Map</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Super Mario Bros 3/Screenshot_3.png" />
+            <div class="titleBox">Start of Level 1-1</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Super Mario Bros 3/Screenshot_4.png" />
+            <div class="titleBox">More Gameplay</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Super Mario Bros 3/Screenshot_5.png" />
+            <div class="titleBox">Red Turtle</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Super Mario Bros 3/Screenshot_6.png" />
+            <div class="titleBox">Flying Goomba</div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="boxInner">
+            <img class="displayImages" src="_images/Super Mario Bros 3/Screenshot_7.png" />
+            <div class="titleBox">End of Level 1-1</div>
+          </div>
+        </div>
+
+    </div>
+
+        <div class="aboutGame" align="center">
+            <h2 class="about">About The Game</h2>
+                <h5>
+                    <p>A remake of the Super Mario Bros. 3 using HTML and melonJS.</p>
+                    <p>Title screen and 1-1 to 1-3 made using Tiled.</p>
+                </h5>
+
+            <h2 class="features">Features</h2>
+                <h5>
+                    These are some the features included in the game:
+                    <ul class="indentList">
+                        <li>- First half of World 1 of Super Mario Bros. 3</li>
+                        <li>- Keyboard controls</li>
+                        <li>- Made in MelonJS</li>
+                    </ul>
+                </h5>
+
+            <h2 class="how">How it was made</h2>
+                <h5>
+                    When making the first world of Super Mario Bros. 3, me and my group members first got the spritesheet for the characters and the world.
+                    Then we imported the sprite sheet into Tiled to make the first 3 three levels, laying out the background, platforms, pipes, enemy spawn locations, 
+                    collisions for the platforms, obstacles, enemy spawn locations and collisions that would be set as triggers when a player falls through the gaps 
+                    in the game world. Then we used melonJS, a javascript API that works with HTML to show the tiled map. Then, we animated Mario with his idle, walk, run and 
+                    crouch animation. Next, the controls for Mario were implemented. Once he was able to walk, part of the team worked on making the different enemy behaviour.
+                    The goomba need to walk from one side of the screen and when they reach the end of the platform, they must fall down, same with the green turtles. Stomping 
+                    on the goomba will change its state. The turtle must go into its shell once stepped on and should be kicked when Mario collided with the turtle shell from the sides. 
+                    The bricks were made destructable once Mario's head collided with the bricks, and coins must come out the coin block with the same action. Once the first few levels were done, 
+                    we focused on making the title screen where the curtain comes up then main menu, then player will select 1-player and then level selection. And finally, sound was added.
+                </h5>
+
+            <h2 class="thanks">Special Thanks To</h2>
+                <h5>
+                    <ul class="centerList">
+                        <li>- My group member on this project - Mike, Ben, Devon and Travis</li>
+                        <li>- Tiled for map editing and collision layout</li>
+                        <li>- MelonJS and WAMP Server</li>                   
+                    </ul>
+                </h5>
+            </div></span>
+    </div>
+    </div>
+
+
+
+    <!--===========================================================================================================================-->
+    <!--3D MODELS-->
+    <!--===========================================================================================================================-->
+    <div id="page-wrap-models" class="col-12">
+        <div class="gameName" id="_about3dModels"><a id="displayModels" href="javascript:models3D();">3D Models</a></div>
+        <span id="toggleModels" style="display: none">
+            <div class="aboutGame" align="center">
+                <div class="wrap">      
+                    <!-- Define all of the tiles: -->
+                    <div class="box">
+                        <div class="boxInner">
+                            <img class="displayImages" src="_images/Snakes/Screenshot_1.png" />
+                            <div class="titleBox">Main Menu</div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="boxInner">
+                            <img class="displayImages" src="_images/Snakes/Screenshot_2.png" />
+                            <div class="titleBox">How To Play</div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="boxInner">
+                            <img class="displayImages" src="_images/Snakes/Screenshot_3.png" />
+                            <div class="titleBox">Gameplay</div>
+                        </div>
+                    </div>
+
+                    <div class="box">
+                        <div class="boxInner">
+                            <img class="displayImages" src="_images/Snakes/Screenshot_4.png" />
+                            <div class="titleBox">Game Over</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <span id="test">test</span>
+
+            </div>
+        </span>
+    </div>
+    </div>
+
+
+
+    <!--===========================================================================================================================-->
+    <!-- FOOTER -->
+    <!--===========================================================================================================================-->
+        <footer class="site-footer col-12" ><strong>
+            <p class="footerName">
+                ©2016 Zeeshan Mohammed <p class="smallText"><sup>All content and trademarks property of their respective owners.</sup></p>
+            </p>
+            <p class="footerCredits">
+            Fonts: <a href="https://www.google.com/fonts" target="blank" class="links underline">Google Fonts</a> 
+            <span class="divider"> | </span> 
+            Gradient: <a href="http://www.cssportal.com/css-gradient-generator/" target="blank" class="links underline">CSSPortal</a> 
+            <span class="divider"> | </span> 
+            Border: <a href="http://www.cssmatic.com/border-radius" target="blank" class="links underline">CSSmatic</a>            
+            <span class="divider"> | </span> 
+            Image Gallery: <a href="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/" target="blank" class="links underline">DWUser.com</a>
+            <span class="divider"> | </span> 
+            Sidebar: <a href="http://codepen.io/JFarrow/pen/fFrpg" target="blank" class="links underline">Sidebar Menu Hover Show/Hide CSS</a>            
+            <span class="divider"> | </span>
+            <a href="https://astronautweb.co/snippet/font-awesome/" target="blank" class="links underline"><font color="white" />Font Awesome</a> 
+            <span class="divider"> | </span> 
+            Div Toggle: <a href="http://www.randomsnippets.com/2008/02/12/how-to-hide-and-show-your-div/" target="blank" class="links underline">Hide, Show or Toggle Div</a>
+            </p>
+        </strong></footer>
+
+</body>
+
+</html>

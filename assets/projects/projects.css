@@ -1,0 +1,470 @@
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+
+* {
+	box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header, main, footer {
+      padding-left: 12em;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+    background-image: url("_images/background.png");
+    text-decoration: none;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    text-decoration: none;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.header {
+    /*border: 0.1em solid darkred;*/
+    padding: 0px;
+    /*background-color: #CECACA;*/
+}
+
+#page-wrap {
+    width: 80%;
+    float: left;
+    right: 0px;
+    left: 0px;
+    padding: .1em;
+    margin: 0.2em auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 84px 8px 32px 32px;
+    -moz-border-radius: 84px 8px 32px 32px;
+    -webkit-border-radius: 84px 8px 32px 32px;
+    border: 4px solid #9c0505;
+    background-color: lightgrey;
+}
+
+#page-wrap-models {
+    width: 80%;
+    float: left;
+    right: 0px;
+    left: 0px;
+    padding: .1em;
+    margin: 0.2em auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 32px 84px 8px 32px;
+    -moz-border-radius: 32px 84px 8px 32px;
+    -webkit-border-radius: 32px 84px 8px 32px;
+    border: 4px solid #9e5151;
+    background-color: lightgrey;
+}
+
+.gameName, .min-tray {
+    font-family: 'Economica', sans-serif;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.menu {
+    border: 0.100em solid #8B0000;
+    padding: 0.75em;
+    width: 20%;
+    float: left;
+    color: white;
+    font-family: Verdana;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: small-caps;
+    font-weight: 400;
+    line-height: 1.155em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul .heading {
+    color: #A72424;
+    text-align: center;
+}
+
+ul .sub-heading {
+    color: #701B1B;
+    text-align: left;
+}
+
+li .active {
+    color: #411010;
+    text-decoration: none;
+    /*text-shadow: 0.100em 0.100em 0.2em #DD5E5E;*/
+}
+
+.gameName {
+    color: indianred;
+}
+
+.gameName a:hover, a:visited {
+    text-decoration: none;
+    color: maroon;
+}
+
+.centerList {
+    text-decoration: none;
+    color: black;
+}
+
+.centerList a:hover, a:visited {
+    color: black;
+}
+
+body {
+    text-align: center;
+}
+
+.aboutGame h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 0.100em 0.100em 0.250em #977A7A;
+    font-size: 2.10em;
+    line-height: 0.75;
+    text-align: center;
+}
+
+.aboutGame h5 {
+    font-family: 'BenchNine', sans-serif;
+    text-align: center;
+    font-size: 1.55em;
+    line-height: 1.2;
+    word-wrap: break-word;
+}
+p { margin: 0 0 0.1em 0; }
+p:first-child { padding: .1em; }
+
+.displayImages {
+    height: 11em;
+}
+
+.about {
+    margin-top: 1em;
+    padding-top: 0.0em;
+}
+.features {
+    padding-top: 0.0em;
+}
+.how {
+    padding-top: 0.0em;
+}
+.thanks {
+    padding-top: 0.0em;
+}
+
+.badges {
+    margin: 0 0 0.1em 0;
+    padding-top: 0.0em;
+    padding-bottom: 0.5em;
+}
+#vertical-align {
+    vertical-align: super;
+}
+
+.indentList {
+    text-indent: 1em;
+    text-align: center;
+}
+
+.centerList {
+    text-align: center;
+}
+
+.content {
+  min-height: 100%;
+  /* equal to footer height */
+  margin: 0 0 100px;
+}
+.content:after {
+  content: "";
+  display: block;
+}
+
+.links:hover {
+    text-decoration: none;
+    color: white;
+}
+
+#test {
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 0%, 10%);
+}
+
+.divider {
+    color: black;
+    font-size: 1.2em;
+    font-weight: 1em;
+}
+
+.site-footer .footerName, .smallText {
+    color: white;
+    font-size: 0.9em;
+    text-decoration: none;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.smallText {
+    line-height: 0.2em;
+}
+
+.footerCredits {
+    color: white;
+    text-decoration: none;
+    font-size: 0.75em;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+/*===========================================================================================================================
+                                                    SIDE BAR SHOW AND HIDE CSS
+===========================================================================================================================*/
+
+@import url("font-awesome.min.css");
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+.fa-2x {
+    font-size: 4px;
+}
+.fa {
+    position: relative;
+    display: table-cell;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+
+.main-menu:hover,nav.main-menu.expanded {
+    width: auto;
+    height: 100%;
+    overflow:visible;
+}
+
+.main-menu {
+    background:#fbfbfb;
+    border-right: 1px solid #e5e5e5;
+    position:absolute;
+    top:0;
+    bottom:10;
+    height:100%;
+    left:0;
+    width:55px;
+    overflow:hidden;
+    -webkit-transition:width .05s linear;
+    transition:width .05s linear;
+    -webkit-transform:translateZ(0) scale(1,1);
+    z-index:1000;
+}
+
+.main-menu>ul {
+    margin: 1px 0;
+}
+
+.main-menu li {
+    position:relative;
+    display:block;
+    width: 190px;
+}
+ul { padding: 1px; }
+li { margin: 0 0 0 2px; }
+.main-menu li>a {
+    position:relative;
+    display:table;
+    border-collapse:collapse;
+    border-spacing:0;
+    color:#999;
+    font-family: arial;
+    font-size: 14px;
+    text-decoration:none;
+    -webkit-transform:translateZ(0) scale(1,1);
+    -webkit-transition:all .1s linear;
+    transition:all .1s linear;
+  
+}
+
+.main-menu .nav-icon {
+    position:relative;
+    display:table-cell;
+    width:3em;
+    height:1.800em;
+    text-align:left;
+    vertical-align:middle;
+    font-size:18px;
+}
+
+#header-text {
+    font-size:15px;
+    color: maroon;
+}
+
+.main-menu .nav-text {
+    position:relative;
+    display:table-cell;
+    vertical-align:middle;
+    width:9.500em;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main-menu>ul.logout {
+    position:absolute;
+    left:0;
+    bottom:0;
+}
+
+.no-touch .scrollable.hover {
+    overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+    overflow-y:auto;
+    overflow:visible;
+}
+
+a:hover,a:focus {
+    text-decoration:none;
+}
+
+nav {
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    -o-user-select:none;
+    user-select:none;
+}
+
+nav ul,nav li {
+    outline:0;
+    margin:0;
+    padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+    color:#fff;
+    background-color:#DB5F5F;
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+
+/*===========================================================================================================================
+                                                    IMAGE GALLERY CSS
+===========================================================================================================================*/
+body {
+   margin: 0;
+   padding: 0;
+   font: 0.500em/13px 'Lucida Sans',sans-serif;
+}
+.wrap {
+   overflow: hidden;
+   width: 75%;
+   left: 25%;
+}
+.box {
+    float: left;
+    position: relative;
+    width: 25%;
+    padding-bottom: 12.35em;
+}
+.boxInner {
+   position: absolute;
+   left: 2px;
+   right: 2px;
+   top: 2px;
+   bottom: 2px;
+   overflow: hidden;
+}
+.boxInner img {
+   width: 100%;
+}
+.boxInner .titleBox {
+   position: absolute;
+   bottom: 0em;
+   left: 0;
+   right: 0;
+   margin-bottom: -1.25em;
+   background: #000;
+   background: rgba(0, 0, 0, 0.5);
+   color: #FFF;
+   padding: auto;
+   text-align: center;
+   -webkit-transition: all 0.3s ease-out;
+   -moz-transition: all 0.3s ease-out;
+   -o-transition: all 0.3s ease-out;
+   transition: all 0.3s ease-out;
+}
+body.no-touch .boxInner:hover .titleBox, body.touch .boxInner.touchFocus .titleBox {
+   margin-bottom: 1em;
+}
+@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box {
+      width: 33.3%;
+      padding-bottom: 33.3%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box {
+      width: 25%;
+      padding-bottom: 25%;
+   }
+}
