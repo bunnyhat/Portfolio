@@ -2508,10 +2508,15 @@
 			font-family: 'Josefin Sans', sans-serif;
 		}
 
-		.work-item #small-text {
-			font-size: 0.65em;
-			text-transform: capitalize;
+		#small-text-R {
+			font-size: 0.85em;
 			font-style: italic;
+			float: right;
+		}
+		#small-text-L {
+			font-size: 0.85em;
+			font-style: italic;
+			float: left;
 		}
 				
 		.work-item #status {
