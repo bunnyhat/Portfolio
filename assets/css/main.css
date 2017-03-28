@@ -2513,11 +2513,6 @@
 			font-style: italic;
 			float: right;
 		}
-		#small-text-L {
-			font-size: 0.85em;
-			font-style: italic;
-			float: left;
-		}
 				
 		.work-item #status {
 			font-style: bold;
@@ -2525,7 +2520,7 @@
 			font-family: 'Economica', sans-serif;
 		}
 
-		.work-item #platform, .work-item #language {
+		.work-item #details {
 			font-size: 0.95em;
 			font-family: 'Economica', sans-serif;
 			line-height: 0.5em;
