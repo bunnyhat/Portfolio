@@ -1,8 +1,0 @@
-Font Families in webpage:
-
-font-family: 'Open Sans Condensed', sans-serif;
-font-family: '', sans-serif;
-font-family: 'Ropa Sans', sans-serif;
-font-family: 'Kreon', serif;
-font-family: 'Economica', sans-serif;
-font-family: 'BenchNine', sans-serif;
